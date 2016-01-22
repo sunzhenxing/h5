@@ -1,6 +1,17 @@
 body {
 	margin: 0px auto;
-	background: #FFF;
+	background-color: azure;
+}
+
+.div{
+	border: 0px;
+	padding:10px 5px;
+	margin-bottom: 10px;
+}
+
+.test{
+	padding:10px 5px;
+	background-color: #DDDDDD;
 }
 
 button {
@@ -9,4 +20,14 @@ button {
 
 #content{
 	margin: 5px 5px;
+}
+
+hr{
+	height: 0px;
+	border-top-color: #666666;
+	border-top-style: dotted;
+}
+
+#fade p{
+	padding: 2px 10px;
 }

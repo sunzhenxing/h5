@@ -6,30 +6,45 @@
 		<title>jquery学习</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script>
-			$(document).ready(function() {
-				// show按钮的点击事件
-				$("#show").click(function() {
-					$("p").show();
-				});
-				// hide按钮的点击事件
-				$("#hide").click(function() {
-					$("p").hide();
-				});
-				// toggle按钮的点击事件
-				$("#toggle").click(function() {
-					$("p").toggle();
-				});
-			});
-		</script>
+		<script type="text/javascript" src="js/script.js" ></script>
 	</head>
 
 	<body>
 		<div id="content">
-			<p>Text will be hide or show!</p>
-			<button type="button" id="show">show</button>
-			<button type="button" id="hide">hide</button>
-			<button type="button" id="toggle">toggle</button>
+			<div id="show_hide" class="div">
+				<p>jQuery 隐藏/显示</p>
+				<h4 class="test">演示显示与隐藏</h4>
+				<button type="button" id="show">show</button>
+				<button type="button" id="hide">hide</button>
+				<button type="button" id="toggle">toggle</button>
+			</div>
+			<hr />
+
+			<div id="fadein_fadeout" class="div">
+				<p>jQuery 淡入/淡出</p>
+				<div id="fade" class="test">
+					<p>锄禾日当午，</p>
+					<p>汗滴禾下土，</p>
+					<p>谁知盘中餐，</p>
+					<p>粒粒皆辛苦。</p>
+				</div>
+				<button id="fadein" type="button">fadein</button>
+				<button id="fadeout" type="button">fadeout</button>
+			</div>
+			<hr />
+
+			<div id="slidedown_slideup" class="div">
+				<p>jQuery 滑动</p>
+				<div id="slide" class="test">
+					<p>锄禾日当午，</p>
+					<p>汗滴禾下土，</p>
+					<p>谁知盘中餐，</p>
+					<p>粒粒皆辛苦。</p>
+				</div>
+				<button id="slidedown" type="button">slidedown</button>
+				<button id="slideup" type="button">slideup</button>
+				<button id="toggle_slide" type="button">toggle</button>
+			</div>
 		</div>
 	</body>
 
