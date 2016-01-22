@@ -1,4 +1,12 @@
-body{
+body {
 	margin: 0px auto;
 	background: #FFF;
+}
+
+button {
+	margin: 5px 10px;
+}
+
+#content{
+	margin: 5px 5px;
 }
