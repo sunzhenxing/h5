@@ -7,10 +7,30 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script>
+			$(document).ready(function() {
+				// show按钮的点击事件
+				$("#show").click(function() {
+					$("p").show();
+				});
+				// hide按钮的点击事件
+				$("#hide").click(function() {
+					$("p").hide();
+				});
+				// toggle按钮的点击事件
+				$("#toggle").click(function() {
+					$("p").toggle();
+				});
+			});
 		</script>
 	</head>
 
 	<body>
+		<div id="content">
+			<p>Text will be hide or show!</p>
+			<button type="button" id="show">show</button>
+			<button type="button" id="hide">hide</button>
+			<button type="button" id="toggle">toggle</button>
+		</div>
 	</body>
 
 </html>
